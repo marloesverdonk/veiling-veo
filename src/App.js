@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ItemListContainer from './components/ItemListContainer';
+import ItemDetailsContainer from './components/ItemDetailsContainer'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
       </header>
       <ItemListContainer/>
+      <ItemDetailsContainer/>
     </div>
   );
 }

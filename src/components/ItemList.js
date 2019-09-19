@@ -6,7 +6,7 @@ export default function ItemList(props){
     <h1>Veilingitems</h1>
     <ul>
       { props.items.map(item =>
-        <li key={item.id}>
+        <li key={item.id} onClick={() => props.selectItem(item.id)}>
           { item.name }
         </li>
         )}
