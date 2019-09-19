@@ -19,7 +19,8 @@ export default class AddItemForm extends React.Component {
         name: this.state.name,
         aanbieder: this.state.aanbieder,
         minBod: this.state.minBod,
-        afnemer: this.state.afnemer
+        afnemer: this.state.afnemer,
+        image: this.state.image
       })
     }
   }
@@ -56,6 +57,12 @@ export default class AddItemForm extends React.Component {
           <input type='number' name='minBod' onChange={this.handleChange} />
           </label>
 
+          <br></br>
+
+          <label>
+            Afbeelding (url):
+          <input type='string' name='image' onChange={this.handleChange} />
+          </label>
           
 
 

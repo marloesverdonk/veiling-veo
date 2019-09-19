@@ -9,6 +9,7 @@ export default function ItemDetails(props){
       <p> <i>Aanbieder: { item.aanbieder }</i></p>
       <p> <i>Voor: { item.afnemer }</i></p>
       <p> <i>Minimum bod: €{ item.minBod },-</i></p>
+      <img src={ item.image } alt="should show image" />
     </div>
   )
 }
