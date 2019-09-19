@@ -3,6 +3,7 @@ import './App.css';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailsContainer from './components/ItemDetailsContainer'
 import AddItemFormContainer from './components/AddItemFormContainer'
+import DeleteItemFormContainer from './components/DeleteItemFormContainer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ItemListContainer/>
       <ItemDetailsContainer/>
       <AddItemFormContainer/>
+      <DeleteItemFormContainer/>
     </div>
   );
 }
