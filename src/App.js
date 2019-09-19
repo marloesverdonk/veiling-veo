@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailsContainer from './components/ItemDetailsContainer'
+import AddItemFormContainer from './components/AddItemFormContainer'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <ItemListContainer/>
       <ItemDetailsContainer/>
+      <AddItemFormContainer/>
     </div>
   );
 }
